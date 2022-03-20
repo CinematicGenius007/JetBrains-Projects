@@ -1,0 +1,27 @@
+body {
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.nav {
+    background-color: #163d3d;
+    margin-bottom: 20px;
+    padding: 10px 20%;
+}
+
+.nav-link {
+    color: white;
+    cursor: pointer;
+}
+
+.form-entity {
+    max-width: 400px;
+    margin: auto;
+}
+
+#submit-button {
+    display: block;
+    background-color: #163d3d;
+    color: #fff;
+    margin: auto;
+}
+
