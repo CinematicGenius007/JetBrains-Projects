@@ -1,0 +1,64 @@
+body {
+    font-family: 'JetBrains Mono', monospace;
+    background-color: #dcefef;
+}
+
+.nav {
+    background-color: #163d3d;
+    padding: 10px 20%;
+}
+
+.nav-link {
+    color: white;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+main {
+    margin: 20px auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label input {
+    min-width: 60vw;
+    max-width: 500px;
+}
+
+form label, form button {
+    margin: 20px;
+}
+
+#submit-button {
+    display: block;
+    background-color: #163d3d;
+    color: #fff;
+    margin: auto;
+}
+
+
+/* history.html */
+
+.submit-history-card {
+    width: 60%;
+    margin: 30px auto;
+    padding: 20px 5%;
+    box-shadow: #989898 0 0 6px 0;
+}
+
+.submit-history-card .delete-button {
+    max-width: 120px;
+    margin: auto;
+}
+
+.submit-history-card p span {
+    display: block;
+}
+
+.submit-history-card p span:first-child {
+    font-weight: bold;
+}
