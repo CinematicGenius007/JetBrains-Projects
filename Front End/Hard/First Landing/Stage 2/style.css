@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    max-height: 600px;
+    line-height: 1.5;
+    font-family: sans-serif;
+}
+
+header {
+    min-height: 60px;
+    background-color: rgba(0, 0, 0, .85);
+    padding: 0.25rem 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 100%;
+    padding: 0.25rem 1rem;
+}
+
+a[id^="link"] {
+    color: #8e8e8e;
+    margin: 23.25px 0;
+}
+
+main {
+    min-height: 360px;
+    background-color: darkcyan;
+}
+
+footer {
+    min-height: 180px;
+    background-color: blueviolet;
+}
